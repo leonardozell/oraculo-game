@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mini Oráculo</title>
+    
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Mini Oráculo</h1>
+        <p>
+        Responda apenas com SIM ou NÃO.
+        </p>
+
+        <div class="orb">
+            🔮
+        </div>
+
+        <p>{{ pergunta.pergunta }}</p>
+
+        <form method="POST">
+
+    <button
+        type="submit"
+        name="resposta"
+        value="sim">
+        Sim
+    </button>
+
+    <button
+        type="submit"
+        name="resposta"
+        value="nao">
+        Não
+    </button>
+
+</form>
+
+<br>
+
+<a href="/restart">
+    <button>
+        Recomeçar
+    </button>
+</a>
+
+    </div>
+
+</body>
+</html>

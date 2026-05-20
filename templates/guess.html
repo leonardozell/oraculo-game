@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Mini Oráculo</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Mini Oráculo</h1>
+
+        <div class="orb">
+            🔮
+        </div>
+
+        {% if personagem %}
+
+            <h2>
+                Você pensou em:
+            </h2>
+
+            <h1>
+                {{ personagem.nome }} ?
+            </h1>
+
+            <form action="/result" method="POST">
+
+                <button
+                    type="submit"
+                    name="acertou"
+                    value="sim">
+                    Sim
+                </button>
+
+                <button
+                    type="submit"
+                    name="acertou"
+                    value="nao">
+                    Não
+                </button>
+
+            </form>
+
+        {% else %}
+
+            <h2>
+                Desculpe...
+            </h2>
+
+            <p>
+                O Oráculo ainda está aprendendo.
+                Em breve ele saberá de tudo.
+            </p>
+
+            <a href="/restart">
+                <button>
+                    Tentar novamente
+                </button>
+            </a>
+
+        {% endif %}
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "Neymar",
+        "real": true,
+        "esporte": true,
+        "musica": false,
+        "ficcional": false
+    },
+    {
+        "nome": "Anitta",
+        "real": true,
+        "esporte": false,
+        "musica": true,
+        "ficcional": false
+    },
+    {
+        "nome": "Batman",
+        "real": false,
+        "esporte": false,
+        "musica": false,
+        "ficcional": true
+    },
+    {
+        "nome": "Mônica",
+        "real": false,
+        "esporte": false,
+        "musica": false,
+        "ficcional": true
+    }
+]

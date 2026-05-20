@@ -1,0 +1,18 @@
+[
+    {
+        "atributo": "real",
+        "pergunta": "É uma pessoa real?"
+    },
+    {
+        "atributo": "esporte",
+        "pergunta": "É ligado ao esporte?"
+    },
+    {
+        "atributo": "musica",
+        "pergunta": "É ligado à música?"
+    },
+    {
+        "atributo": "ficcional",
+        "pergunta": "É um personagem fictício?"
+    }
+]

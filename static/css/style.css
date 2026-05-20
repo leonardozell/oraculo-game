@@ -1,0 +1,126 @@
+body {
+
+    margin: 0;
+    padding: 0;
+
+    background:
+        radial-gradient(
+            circle,
+            #2d1b4e,
+            #12091f
+        );
+
+    color: white;
+
+    font-family:
+        Arial,
+        sans-serif;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.container {
+
+    text-align: center;
+
+    background:
+        rgba(255,255,255,0.05);
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 0 30px
+        rgba(128,0,255,0.4);
+
+    backdrop-filter:
+        blur(4px);
+
+    width: 420px;
+}
+
+h1 {
+
+    margin-bottom: 20px;
+}
+
+h2 {
+
+    font-weight: normal;
+}
+
+.orb {
+
+    font-size: 80px;
+
+    margin: 25px 0;
+
+    animation:
+        flutuar 3s ease-in-out infinite;
+}
+
+button {
+
+    background:
+        #6f42c1;
+
+    color: white;
+
+    border: none;
+
+    padding:
+        12px 25px;
+
+    margin: 10px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    transition:
+        0.3s;
+}
+
+button:hover {
+
+    transform:
+        scale(1.08);
+
+    background:
+        #8e5cff;
+
+    box-shadow:
+        0 0 15px
+        rgba(180,120,255,0.8);
+}
+
+p {
+
+    line-height: 1.5;
+}
+
+@keyframes flutuar {
+
+    0% {
+        transform:
+            translateY(0px);
+    }
+
+    50% {
+        transform:
+            translateY(-8px);
+    }
+
+    100% {
+        transform:
+            translateY(0px);
+    }
+}
