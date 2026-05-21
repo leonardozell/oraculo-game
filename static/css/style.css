@@ -24,6 +24,17 @@ body {
     min-height: 100vh;
 }
 
+.intro {
+
+    font-size: 22px;
+
+    max-width: 700px;
+
+    margin: 20px auto;
+
+    line-height: 1.6;
+}
+
 .container {
 
     text-align: center;
@@ -124,4 +135,5 @@ p {
         transform:
             translateY(0px);
     }
+
 }
