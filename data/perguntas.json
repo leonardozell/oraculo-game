@@ -4,35 +4,51 @@
         "pergunta": "É uma pessoa real?"
     },
     {
-        "atributo": "esporte",
-        "pergunta": "É ligado ao esporte?"
+        "atributo": "vivo",
+        "pergunta": "Está vivo(a)?"
     },
     {
-        "atributo": "musica",
-        "pergunta": "É ligado à música?"
-    },
-    {
-        "atributo": "africana",
-        "pergunta": "É uma pessoa nascida no continente Africano?"
+        "atributo": "homem",
+        "pergunta": "É homem?"
     },
     {
         "atributo": "brasileiro",
-        "pergunta": "É Brasileiro(a)?"
+        "pergunta": "É brasileiro(a)?"
     },
     {
         "atributo": "americano",
-        "pergunta": "É Americano(a)?"
+        "pergunta": "É americano(a)?"
+    },
+    {
+        "atributo": "africana",
+        "pergunta": "Nasceu na África?"
+    },
+    {
+        "atributo": "esporte",
+        "pergunta": "Tem relação com esporte?"
+    },
+    {
+        "atributo": "musica",
+        "pergunta": "Tem relação com música?"
     },
     {
         "atributo": "politico",
-        "pergunta": "Essa pessoa é político(a)?"
+        "pergunta": "Tem relação com política?"
     },
     {
-        "atributo": "vivo",
-        "pergunta": "Esta viva?"
+        "atributo": "cinema",
+        "pergunta": "Tem relação com cinema ou TV?"
     },
     {
-        "atributo": "ficcional",
-        "pergunta": "É um personagem fictício?"
+        "atributo": "ciencia",
+        "pergunta": "Tem relação com ciência?"
+    },
+    {
+        "atributo": "animado",
+        "pergunta": "É de desenho ou animação?"
+    },
+    {
+        "atributo": "superpoder",
+        "pergunta": "Possui superpoderes?"
     }
 ]
