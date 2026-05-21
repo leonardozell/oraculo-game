@@ -1,30 +1,114 @@
 [
     {
         "nome": "Neymar",
+        "homem" : true,
+        "mulher" : false,
         "real": true,
         "esporte": true,
         "musica": false,
-        "ficcional": false
+        "ficcional": false,
+        "politico": false,
+        "brasileiro": true,
+        "americano": false,
+        "africana": false,
+        "vivo": true
+    },
+    {
+        "nome": "Lula",
+        "homem" : true,
+        "mulher" : false,
+        "real": true,
+        "esporte": false,
+        "musica": false,
+        "ficcional": false,
+        "politico": true,
+        "brasileiro": true,
+        "americano": false,
+        "africana": false,
+        "vivo": true
+    },
+    {
+        "nome": "Bob Esponja",
+        "homem" : true,
+        "mulher" : false,
+        "real": false,
+        "esporte": false,
+        "musica": false,
+        "ficcional": true,
+        "politico": false,
+        "brasileiro": false,
+        "americano": true,
+        "africana": false,
+        "vivo": true
     },
     {
         "nome": "Anitta",
+        "homem" : false,
+        "mulher" : true,
         "real": true,
         "esporte": false,
         "musica": true,
-        "ficcional": false
+        "ficcional": false,
+        "politico": false,
+        "brasileiro": true,
+        "americano": false,
+        "africana": false,
+        "vivo": true
+    },
+    {
+        "nome": "Michael Jackson",
+        "homem" : true,
+        "mulher" : false,
+        "real": true,
+        "esporte": false,
+        "musica": true,
+        "ficcional": false,
+        "politico": false,
+        "brasileiro": false,
+        "americano": true,
+        "africana": false,
+        "vivo": false
+    },
+    {
+        "nome": "Tyla",
+        "homem" : false,
+        "mulher" : true,
+        "real": true,
+        "esporte": false,
+        "musica": true,
+        "ficcional": false,
+        "politico": false,
+        "brasileiro": false,
+        "americano": false,
+        "africana": true,
+        "vivo": true
     },
     {
         "nome": "Batman",
+        "homem" : true,
+        "mulher" : false,
         "real": false,
         "esporte": false,
         "musica": false,
-        "ficcional": true
+        "ficcional": true,
+        "politico": false,
+        "brasileiro": false,
+        "americano": true,
+        "africana": false,
+        "vivo": true
     },
     {
         "nome": "Mônica",
+        "homem" : false,
+        "mulher" : true,
         "real": false,
         "esporte": false,
         "musica": false,
-        "ficcional": true
+        "ficcional": true,
+        "politico": false,
+        "brasileiro": true,
+        "americano": false,
+        "africana": false,
+        "vivo": true
     }
 ]

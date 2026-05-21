@@ -12,6 +12,26 @@
         "pergunta": "É ligado à música?"
     },
     {
+        "atributo": "africana",
+        "pergunta": "É uma pessoa nascida no continente Africano?"
+    },
+    {
+        "atributo": "brasileiro",
+        "pergunta": "É Brasileiro(a)?"
+    },
+    {
+        "atributo": "americano",
+        "pergunta": "É Americano(a)?"
+    },
+    {
+        "atributo": "politico",
+        "pergunta": "Essa pessoa é político(a)?"
+    },
+    {
+        "atributo": "vivo",
+        "pergunta": "Esta viva?"
+    },
+    {
         "atributo": "ficcional",
         "pergunta": "É um personagem fictício?"
     }
